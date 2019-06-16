@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.springframework.cloud.stream.app.http.source;
+package org.springframework.cloud.stream.app.http.processor;
 
 import javax.validation.constraints.NotEmpty;
 

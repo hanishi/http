@@ -1,0 +1,8 @@
+- name: dev
+  box: centos/7
+  ip: "192.168.0.11"
+  netmask: "255.255.255.0"
+  memory: 8192
+  cpus: 4
+  provision: "scripts/bootstrap.sh"
+  forwarded_ports: [80,80,2181,2181,9092,9092,3306,3306,9393,9393]
